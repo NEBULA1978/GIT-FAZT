@@ -5,5 +5,6 @@ creo commit git commit -m "primer commit"
 hago un cambio en index.html y añado con git add index.html
 creo commit git commit -m "segundo commit"
 git diff index.html veo diferencias
+creo archivo .gitignore para incluir carpetas a ignorar
 
 
