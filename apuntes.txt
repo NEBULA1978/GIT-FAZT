@@ -1,0 +1,50 @@
+Añado a index.html unas palabras y me muestra esto:
+
+nebula@sytem:~/Música/git-faszt$ git log
+commit 060031c27b7ddc9db4e249aff5d78571a6c4444d (HEAD -> master)
+Author: NEBULA1978 <rpascualey@gmail.com>
+Date:   Sun Jan 29 20:18:41 2023 +0100
+
+    Creacion de archivos base
+nebula@sytem:~/Música/git-faszt$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nebula@sytem:~/Música/git-faszt$ 
+
+PARA VOLVER AL ESTADO ANTERIOR:
+git checkout -- index.html
+
+nebula@sytem:~/Música/git-faszt$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        apuntes.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+nebula@sytem:~/Música/git-faszt$ git diff index.html
+diff --git a/index.html b/index.html
+index 455d0a8..ec285c8 100644
+--- a/index.html
++++ b/index.html
+@@ -4,7 +4,7 @@
+     <meta charset="UTF-8" />
+     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+-    <title>Prueba GIT</title>
++    <title>Prueba GIT PRIMERA PARTE</title>
+   </head>
+   <body>
+     <h1>Hola git</h1>
+nebula@sytem:~/Música/git-faszt$ 
+
+
