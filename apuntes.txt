@@ -7,4 +7,16 @@ creo commit git commit -m "segundo commit"
 git diff index.html veo diferencias
 creo archivo .gitignore para incluir carpetas a ignorar
 
+CAMBIAMOS DE LOGIN A MASTER:
+
+nebula@sytem:~/Música/git-faszt$ git branch
+* login
+  master
+nebula@sytem:~/Música/git-faszt$ git checkout master
+Switched to branch 'master'
+nebula@sytem:~/Música/git-faszt$ git branch
+  login
+* master
+nebula@sytem:~/Música/git-faszt$ 
+
 
